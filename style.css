@@ -1,0 +1,18 @@
+#time{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100pt;
+}
+#date{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+}
+#weather{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+}

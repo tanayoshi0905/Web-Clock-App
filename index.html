@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <h1 id="time">
+        <div id=hour></div>
+        <div class="corons">:</div>
+        <div id="minute"></div>
+        <div class="corons">:</div>
+        <div id=second></div>
+    </h1>
+    <h1 id="date">
+        <div id="year"></div>
+        年
+        <div id="month"></div>
+        月
+        <div id="day"></div>
+        日
+        <div id="youbi"></div>
+        曜日
+    </h1>
+    <h1 id="weather">
+        今日の
+        <div id="locate"></div>
+        ：
+        <div id="today_weather"></div>
+        <img id="weather_svg" alt="お天気画像">
+    </h1>
+    <script src="./time.js"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
